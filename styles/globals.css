@@ -1,15 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html, body, #__next {
-  height: 100%;
-}
 body {
-  @apply bg-gradient-to-b from-pink-500 to-purple-800 text-white;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #1a001f;
+  color: #fff;
+  text-align: center;
 }
-.glass {
-  background-color: rgba(255,255,255,0.06);
-  backdrop-filter: blur(6px);
+
+header {
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  padding: 20px;
 }
+
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.hero {
+  padding: 40px 20px;
+}
+
+.hero-image {
+  width: 80%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(255,255,255,0.2);
+}
+
+footer {
+  background-color: #0d0013;
+  padding: 10px;
+  font-size: 14px;
+}
+
